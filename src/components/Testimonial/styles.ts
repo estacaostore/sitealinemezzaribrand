@@ -137,6 +137,11 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 1024px) {
+    &.container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .testimonial__container {
       column-gap: 13rem;
     }
