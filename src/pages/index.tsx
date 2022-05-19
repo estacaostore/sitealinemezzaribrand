@@ -6,6 +6,7 @@ import { Home } from '../components/Home'
 import { Newsletter } from '../components/Newsletter'
 import { Scrollup } from '../components/Scrollup'
 import { Story } from '../components/Story'
+import { Testimonial } from '../components/Testimonial'
 
 const Index: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Index: NextPage = () => {
         <Home />
         <Story />
         <Featured />
+        <Testimonial />
         <Newsletter />
       </main>
       <Footer />

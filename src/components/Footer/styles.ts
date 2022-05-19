@@ -29,7 +29,7 @@ export const Container = styled.footer`
     color: ${theme.colors.text_color};
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    column-gap: 0.5rem;
 
     &:hover {
       color: ${theme.colors.title_color};
