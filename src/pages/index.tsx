@@ -4,7 +4,6 @@ import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Home } from '../components/Home'
 import { Newsletter } from '../components/Newsletter'
-import { Scrollup } from '../components/Scrollup'
 import { Story } from '../components/Story'
 import { Testimonial } from '../components/Testimonial'
 
@@ -12,7 +11,6 @@ const Index: NextPage = () => {
   return (
     <>
       <Header />
-
       <main className="main">
         <Home />
         <Story />
@@ -21,7 +19,7 @@ const Index: NextPage = () => {
         <Newsletter />
       </main>
       <Footer />
-      <Scrollup />
+
     </>
   )
 }

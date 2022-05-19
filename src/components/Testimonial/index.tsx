@@ -33,7 +33,7 @@ const Testimonial: React.FC = () => {
           }}
           modules={[Pagination, Navigation]}
         >
-          <SwiperSlide className="testimonial__card swiper-slider">
+          <SwiperSlide key={1} className="testimonial__card swiper-slider">
             <div className="testimonial__quote">
               <i className="ri-whatsapp-line"></i>
             </div>

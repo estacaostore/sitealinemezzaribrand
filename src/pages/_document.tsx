@@ -54,7 +54,7 @@ export default class MyDocument extends Document {
               `
             }}
           />
-          <meta name="viewport" content="viewport-fit=cover" />
+
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet" />
         </Head>
