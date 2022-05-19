@@ -34,13 +34,14 @@ export const Container = styled.section`
     transform: rotate(-90deg);
     display: flex;
     column-gap: 1rem;
-    
+
   }
 
   .home__social-link{
     font-size: 1.25rem;
     color: ${theme.colors.text_color};
     transition: .3s;
+    transform: rotate(90deg);
 
     &:hover{
       color: ${theme.colors.first_color};

@@ -9,7 +9,7 @@ export const Container = styled.a`
     background-color: ${theme.colors.body_color};
     box-shadow: 0 4px 12px hsla(0, 0%, 20%, 0.1);
     display: inline-flex;
-    padding: 0.25rem;
+    padding: 0.35rem;
     z-index: ${theme.zindexs.z_tooltip};
     opacity: 0.8;
     transition: 0.4s;
@@ -21,7 +21,7 @@ export const Container = styled.a`
   }
 
   .scroll__icon {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: ${theme.colors.first_color};
   }
 

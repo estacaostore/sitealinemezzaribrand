@@ -56,10 +56,7 @@ export default class MyDocument extends Document {
           />
           <meta name="viewport" content="viewport-fit=cover" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
-            rel="stylesheet"
-          />
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <noscript>

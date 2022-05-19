@@ -23,7 +23,7 @@ const Scrollup: React.FC = () => {
       id="scroll-up"
       href="#"
     >
-      <i className="ri-arrow-up-line"></i>
+      <i className="ri-arrow-up-line scroll__icon"></i>
     </Container>
   )
 }
