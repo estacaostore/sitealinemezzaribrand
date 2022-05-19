@@ -16,7 +16,7 @@ export const theme = {
   },
   fonts: {
     body_font: `'Oswald', sans-serif`,
-    text_font: `'Inter, sans-serif`,
+    text_font: `'Inter', sans-serif`,
     biggest_font_size: '2.25rem',
     h1_font_size: '1.5rem',
     h2_font_size: '1.25rem',
