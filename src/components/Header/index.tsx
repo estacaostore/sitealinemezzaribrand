@@ -6,11 +6,12 @@ const Header: React.FC = () => {
   const [scrollHeader, setScrollHeader] = useState(false)
 
   const changeScrollHeader = () => {
-    if (window.screenY >= 200) {
-      setScrollHeader(true)
-    } else {
-      setScrollHeader(false)
-    }
+    window.screenY >= 100 ? setScrollHeader(true) : setScrollHeader(false)
+    // if (window.screenY >= 100) {
+    //   setScrollHeader(true)
+    // } else {
+    //   setScrollHeader(false)
+    // }
   }
 
   useEffect(() => {

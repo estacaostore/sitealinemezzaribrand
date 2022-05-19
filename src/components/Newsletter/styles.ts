@@ -40,15 +40,15 @@ export const Container = styled.section`
     color: hsl(0, 0%, 15%);
   }
 
-  .button{
+  .button {
     display: inline-block;
     background-color: ${theme.colors.black_color};
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 1.25rem 2rem;
     font-weight: ${theme.fonts.normal_font_size};
-    transition: .3s;
+    transition: 0.3s;
 
-    &:hover{
+    &:hover {
       background-color: ${theme.colors.black_color_alt};
     }
   }
@@ -76,7 +76,7 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 992px) {
-    &.container{
+    &.container {
       margin-left: auto;
       margin-right: auto;
     }

@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
 import { Featured } from '../components/Featured'
+import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Home } from '../components/Home'
 import { Newsletter } from '../components/Newsletter'
 import { Scrollup } from '../components/Scrollup'
+import { Story } from '../components/Story'
 
 const Index: NextPage = () => {
   return (
@@ -12,10 +14,11 @@ const Index: NextPage = () => {
 
       <main className="main">
         <Home />
+        <Story />
         <Featured />
         <Newsletter />
       </main>
-
+      <Footer />
       <Scrollup />
     </>
   )
