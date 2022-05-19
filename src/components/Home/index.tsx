@@ -1,16 +1,12 @@
-import React from "react";
-import { Container } from "./styles";
+import React from 'react'
+import { Container } from './styles'
 
 const Home: React.FC = () => {
   return (
     <Container className="home" id="home">
       <div className="home__container container grid">
         <div className="home__img-bg">
-          <img
-            src="/images/home.jpg"
-            alt=""
-            className="home__img"
-          />
+          <img src="/images/home.jpg" alt="" className="home__img" />
         </div>
 
         <div className="home__social">
@@ -50,8 +46,8 @@ const Home: React.FC = () => {
         </div>
       </div>
     </Container>
-  );
-};
+  )
+}
 
-export { Home };
+export { Home }
 

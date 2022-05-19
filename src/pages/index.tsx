@@ -1,9 +1,8 @@
-import type { NextPage } from "next";
-import { Featured } from "../components/Featured";
-import { Header } from "../components/Header";
-import { Home } from "../components/Home";
-import { Scrollup } from "../components/Scrollup";
-
+import type { NextPage } from 'next'
+import { Featured } from '../components/Featured'
+import { Header } from '../components/Header'
+import { Home } from '../components/Home'
+import { Scrollup } from '../components/Scrollup'
 
 const Index: NextPage = () => {
   return (
@@ -17,7 +16,7 @@ const Index: NextPage = () => {
 
       <Scrollup />
     </>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index

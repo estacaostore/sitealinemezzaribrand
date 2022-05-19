@@ -1,6 +1,5 @@
-import React from "react";
-import { Container } from "./styles";
-
+import React from 'react'
+import { Container } from './styles'
 
 const Featured: React.FC = () => {
   return (
@@ -46,7 +45,7 @@ const Featured: React.FC = () => {
 
           <button className="button featured__button">DETALHES</button>
         </article>
-        
+
         <article className="featured__card">
           <span className="featured__tag">Sale</span>
 
@@ -61,8 +60,8 @@ const Featured: React.FC = () => {
         </article>
       </div>
     </Container>
-  );
-};
+  )
+}
 
-export { Featured };
+export { Featured }
 

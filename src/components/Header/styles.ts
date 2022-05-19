@@ -1,10 +1,9 @@
-import styled from "styled-components";
-import { theme } from "../../styles/theme";
-
+import styled from 'styled-components'
+import { theme } from '../../styles/theme'
 
 type PropType = {
-  open?: boolean | string;
-};
+  open?: boolean | string
+}
 
 export const Container = styled.header`
   .container {
@@ -77,7 +76,7 @@ export const Container = styled.header`
       margin-right: auto;
     }
   }
-`;
+`
 
 export const Navmenu = styled.div<PropType>`
   @media screen and (max-width: 767px) {
@@ -149,7 +148,7 @@ export const Navmenu = styled.div<PropType>`
       display: none;
     }
   }
-`;
+`
 
 export const Navtoggle = styled.div`
   color: ${theme.colors.title_color};
@@ -159,4 +158,4 @@ export const Navtoggle = styled.div`
   @media screen and (min-width: 767px) {
     display: none;
   }
-`;
+`

@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import styled from 'styled-components'
+import { theme } from '../../styles/theme'
 
 export const Container = styled.a`
   &.scrollup {
@@ -28,4 +28,4 @@ export const Container = styled.a`
   &.show-scroll {
     bottom: 3rem;
   }
-`;
+`

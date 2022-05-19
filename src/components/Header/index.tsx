@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from "react";
-import { Container, Navmenu, Navtoggle } from "./styles";
+import React, { useEffect, useState } from 'react'
+import { Container, Navmenu, Navtoggle } from './styles'
 
 const Header: React.FC = () => {
-  const [open, setOpen] = useState(false);
-  const [scrollHeader, setScrollHeader] = useState(false);
+  const [open, setOpen] = useState(false)
+  const [scrollHeader, setScrollHeader] = useState(false)
 
   const changeScrollHeader = () => {
     if (window.screenY >= 200) {
-      setScrollHeader(true);
+      setScrollHeader(true)
     } else {
-      setScrollHeader(false);
+      setScrollHeader(false)
     }
-  };
+  }
 
   useEffect(() => {
-    window.addEventListener("scroll", changeScrollHeader);
-  }, []);
+    window.addEventListener('scroll', changeScrollHeader)
+  }, [])
 
   return (
     <Container
-      className={scrollHeader ? "header scroll-header" : "header"}
+      className={scrollHeader ? 'header scroll-header' : 'header'}
       id="header"
     >
       <nav className="nav container">
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
         </a>
 
         <Navmenu
-          className={open ? "nav__menu show-menu" : "nav__menu"}
+          className={open ? 'nav__menu show-menu' : 'nav__menu'}
           id="nav-menu"
           open={open}
         >
@@ -84,8 +84,8 @@ const Header: React.FC = () => {
         </div>
       </nav>
     </Container>
-  );
-};
+  )
+}
 
-export { Header };
+export { Header }
 

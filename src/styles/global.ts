@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { theme } from "./theme";
+import { createGlobalStyle } from 'styled-components'
+import { theme } from './theme'
 
 export default createGlobalStyle`
   * {
@@ -90,4 +90,4 @@ export default createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background: hsl(0, 0%, 17%)
   }
-`;
+`

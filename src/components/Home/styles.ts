@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import styled from 'styled-components'
+import { theme } from '../../styles/theme'
 
 export const Container = styled.section`
   .home__container{
@@ -170,4 +170,4 @@ export const Container = styled.section`
       margin-right: auto;
     }
   }
-`;
+`

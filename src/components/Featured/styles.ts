@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import styled from 'styled-components'
+import { theme } from '../../styles/theme'
 
 export const Container = styled.section`
   .featured__container {
@@ -67,7 +67,7 @@ export const Container = styled.section`
 
   .featured__button {
     font-size: ${theme.fonts.small_font_size};
-    transform: translateY(.75rem);
+    transform: translateY(0.75rem);
     opacity: 0;
   }
 
@@ -88,7 +88,7 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 767px) {
-    &.section{
+    &.section {
       padding: 8rem 0 1rem;
     }
 
@@ -99,20 +99,20 @@ export const Container = styled.section`
   }
 
   @media screen and (min-width: 992px) {
-    .section__title{
+    .section__title {
       font-size: ${theme.fonts.h2_font_size};
     }
 
-    .featured__container{
+    .featured__container {
       grid-template-columns: repeat(3, 312px);
       padding-top: 2rem;
     }
   }
 
   @media screen and (min-width: 1024px) {
-    &.container{
+    &.container {
       margin-left: auto;
       margin-right: auto;
     }
   }
-`;
+`
